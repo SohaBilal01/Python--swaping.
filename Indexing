@@ -1,0 +1,81 @@
+print(my_name[0],"it is at index 0")
+print(my_name[1],"it is at index 1")
+print(my_name[2])
+print(my_name[3])
+
+output:
+s it is at index 0
+o it is at index 1
+h
+a
+--------------------------------------------
+name = "SOHABILAL"
+print("1st letter from start" , name[0])
+print("1st letter from end", name[-1]) 
+output:
+1st letter from start S
+1st letter from end L
+
+-------------------------------------------------
+name = "SOHABILAL"
+print(name[2:7],' :will show 2 from 0th and stop one from just before the ends')
+output:
+HABIL  :will show 2 from 0th and stop one from just before the ends
+
+------------------------------------------------
+name = "Imran"
+print(name[2]+name[3]+name[4])
+output:
+ran
+-------------------------------------------------
+student_name = "ashfaque"
+
+print(student_name[:6])
+print(student_name[:6])
+print(student_name[2:6])
+print(student_name[0:8])
+print(student_name[3:7])
+output:
+ashfaq
+ashfaq
+hfaq
+ashfaque
+faqu
+---------------------------------------------------
+name = "SOHABIAL"
+print( name[:] )
+print( name[::1] )
+print( name[::2] )
+print( name[::3] )
+output:
+SOHABIAL
+SOHABIAL
+SHBA
+SAA
+
+-----------------------------------------------------------
+name = "SOHABIAL"
+print( name[3::2] )
+print( name[1::3] )
+output:
+AIL
+OBL
+-----------------------------------------------------------
+word = "acknowledgement"
+
+print( word[2:10:2]) #first 2 tell starting second 10 tells ending and third tells the skiping or size.
+output:
+kold
+------------------------------------------------------------
+x = 'checkpoint'
+print( x[::-1])
+output:
+tniopkcehc
+------------------continued:
+print( x[9::-1])   # start from index 9 and will skip in reverse order.
+print( x[7::-2])
+print( x[7::-3])
+output:
+tniopkcehc
+ipch
+ikh
